@@ -1,0 +1,22 @@
+/* src/app/globals.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+main {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Scroll বন্ধ করার জন্য */
+}
+
+/* Three.js Canvas-কে ফুল স্ক্রিন এবং সেন্টারে রাখার জন্য */
+canvas {
+  display: block;
+  width: 100vw !important;
+  height: 100vh !important;
+}
